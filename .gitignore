@@ -1,0 +1,23 @@
+# Deny by default; allow only this reviewed documentation release.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!SECURITY.md
+!CITATION.cff
+!SUPPORT.md
+!.github/
+!.github/FUNDING.yml
+!PUBLICATION_MANIFEST.md
+!PUBLICATION_SECURITY_CHECK.md
+!docs/
+!docs/METHODOLOGY.md
+!docs/REPRODUCIBILITY.md
+!docs/EVIDENCE_SCOPE.md
+!governance/
+!governance/PUBLICATION_POLICY.md
+!results/
+!results/PROVENANCE.json
+!experiments/
+!experiments/*/
+!experiments/*/SUMMARY.md

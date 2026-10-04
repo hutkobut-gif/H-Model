@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Cite this governed H Model documentation release; confirm authorship with the owner before formal publication."
+title: "H Model: governed historical simulation summaries"
+type: software
+version: "0.1.0-documentation"
+date-released: "2026-10-04"
+abstract: "Sanitized historical simulation summaries with provenance and explicit evidence limits."

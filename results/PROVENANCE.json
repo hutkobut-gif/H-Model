@@ -1,0 +1,176 @@
+[
+  {
+    "experiment": "h_model_sim_v0",
+    "version": "v0",
+    "scientific_status": "NEGATIVE / FAIL",
+    "result_summary": "CORE KILLED: delayed-credit and causality gates failed; the input separability gate also failed. Experiments 4\u201310 and the later ablation block were not run because the stop rule triggered. A short-delay effect is not evidence of success on the preregistered delayed task.",
+    "source_report": "H_MODEL_SIM_V0_REPORT.md",
+    "report_sha256": "601f94982bdd050fd00d1281e466c2cf0ce26b386c8cbbeb54ce1077ca8458f8",
+    "prereg_source": "PREREGISTRATION.md",
+    "prereg_sha256": "a542c2f687866e06940213c7025789beb3158b38c80383586f4ad4635f47038e",
+    "historical_prereg_hash_matches": false,
+    "hash_record_sources": [],
+    "source_python_manifest_sha256": "a24ba15e9114e841dba086c078a7e5c13bd990d0b2d39bd0bc1fb35159ba61e7",
+    "source_python_file_count": 22,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": "Not explicitly established",
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_model_sim_v1a",
+    "version": "v1a",
+    "scientific_status": "NEGATIVE / FAIL",
+    "result_summary": "ACTION-LOCK FAILED: delayed-credit accuracy was 0.538 against a 0.70 threshold; causality-task accuracy was 0.508 against 0.65. The report recommends stopping this credit-assignment line under its preregistered mapping.",
+    "source_report": "H_MODEL_SIM_V1A_REPORT.md",
+    "report_sha256": "d8f5229f34ad086fadfe9bd8fa12659303503a1ae5736acc15da523769ec2ff2",
+    "prereg_source": "PREREGISTRATION_V1A.md",
+    "prereg_sha256": "baec783e04ea5a4086aa105e04eb8e0d92e8a4c8470402938b19202bfea7c9fc",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG_V1A.sha256",
+      "H_MODEL_SIM_V1A_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "1080ea02251bc96ff8c5f685c2daa21b91e74efa06559b87786f2970a022cbe1",
+    "source_python_file_count": 22,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": "Not explicitly established",
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_model_sim_v2",
+    "version": "v2",
+    "scientific_status": "MIXED / overall FAIL",
+    "result_summary": "V2 REQUIRES NEW LEARNING PRINCIPLE: first-order prediction passed, but context accuracy was 0.605 against 0.75. The reduced conventional baseline matched the ingredient under test. Phase 3 was not run.",
+    "source_report": "H_MODEL_SIM_V2_REPORT.md",
+    "report_sha256": "11469991790982e15cc7b2ca91b9f1d5da10c0aac657811500b6567e1807ce59",
+    "prereg_source": "PREREGISTRATION_V2.md",
+    "prereg_sha256": "3ce0d19d4855eb2e6d8fa5e1db63448be113999b4e45259625517302ca7e670c",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG_V2.sha256",
+      "H_MODEL_SIM_V2_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "6477a6b9ec8e3a445a29711bb085fb52ed85ae0b3291bd01cea43b76c05f6e13",
+    "source_python_file_count": 14,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": "Not explicitly established",
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_min_two_cell_v0",
+    "version": "v0",
+    "scientific_status": "FAIL / non-counting diagnostics",
+    "result_summary": "H-MIN REQUIRES REDESIGN: the membership gate failed, stopping the counting claim test. One membership failure involved a test-harness bug. The already executed comparison was non-counting; its gap was -0.087 with a 95% confidence interval of [-0.146, -0.027]. Later diagnostics and the stop-development recommendation were post hoc.",
+    "source_report": "H_MIN_TWO_CELL_SIM_REPORT.md",
+    "report_sha256": "cd36833cd309d57ecb1527a8ca367a652d4167b8f4f2672a66f020edde51dd92",
+    "prereg_source": "H_MIN_TWO_CELL_PREREG.md",
+    "prereg_sha256": "172bae92651541af18de25ac7305c0391d0a6a7139233b5a1cdeb321f75f9f32",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG.sha256",
+      "H_MIN_TWO_CELL_SIM_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "7ebb7cedc8033b5aface69cb3137d1d8f8ebbc2ef8b4d0b0c298e0b6e684cce3",
+    "source_python_file_count": 13,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": [
+      "2026-09-27"
+    ],
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_opportunity_sensor_v1",
+    "version": "v1",
+    "scientific_status": "NEGATIVE for distinctiveness / mixed stage outcomes",
+    "result_summary": "CONVENTIONAL LOCAL ADAPTIVE SENSOR SUFFICIENT: early necessity stages passed, but a conventional controller reproduced the candidate performance within about 1%. The report recommends stopping this line. This is a simulation result, not a hardware demonstration.",
+    "source_report": "H_OPPORTUNITY_SENSOR_V1_REPORT.md",
+    "report_sha256": "f84a5da69ea2b65ddbe30c051a5db3015a5bb00bb9ac2fb93142c9a7e2174ffe",
+    "prereg_source": "H_OPPORTUNITY_SENSOR_V1_PREREG.md",
+    "prereg_sha256": "2ce043f4d8f5b5aed54a1fbf7de0933b482529ebae0bd94447d548cf21efb593",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG.sha256",
+      "H_OPPORTUNITY_SENSOR_V1_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "cbb450c304473ec57603a006660aa034b546041787956ef85bc49b98e3b0d316",
+    "source_python_file_count": 18,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": [
+      "2026-09-27",
+      "2026-09-28"
+    ],
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_opportunity_mech_v2",
+    "version": "v2",
+    "scientific_status": "NEGATIVE",
+    "result_summary": "MECHANICAL MEMORY OPPORTUNITY NOT FOUND: no qualifying continuous region satisfied the preregistered stage-1 requirement. Stages 2\u20135 were not reached. Diagnostic local gains do not overturn the formal negative finding.",
+    "source_report": "H_OPPORTUNITY_MECH_V2_REPORT.md",
+    "report_sha256": "5058fe65c4a592babe38341f874d7d695fe9f6706c85fe767d710b978b3f0914",
+    "prereg_source": "H_OPPORTUNITY_MECH_V2_PREREG.md",
+    "prereg_sha256": "cbe23c89b6b1d0c53a2fcb403c9d848011410c0a6e2e06d048ce2a58d55a1b57",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG.sha256",
+      "H_OPPORTUNITY_MECH_V2_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "73d1ceada584ef53118ab0bb2154cb8ce3356c2b318cd587cd321a67e06a3d11",
+    "source_python_file_count": 23,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": [
+      "2026-09-28"
+    ],
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  },
+  {
+    "experiment": "h_opportunity_ionic_v3",
+    "version": "v3",
+    "scientific_status": "NEGATIVE",
+    "result_summary": "IONIC MEMORY OPPORTUNITY NOT FOUND: no opportunity-family cell passed the stage-1 gate. Stages 2\u20135 were not reached for counting evidence; later diagnostic runs do not count as passed opportunity tests.",
+    "source_report": "H_OPPORTUNITY_IONIC_V3_REPORT.md",
+    "report_sha256": "9ec37d57f38e2df50112892ce64f43540c29f65706c8c5202f0d4fd1c10c2d65",
+    "prereg_source": "H_OPPORTUNITY_IONIC_V3_PREREG.md",
+    "prereg_sha256": "7afd640c9dd1c76642205d00b218c1154cc51935e037e0d07edfbe842ee642a5",
+    "historical_prereg_hash_matches": true,
+    "hash_record_sources": [
+      "results/PREREG.sha256",
+      "H_OPPORTUNITY_IONIC_V3_REPORT.md (embedded)"
+    ],
+    "source_python_manifest_sha256": "6aaca22d5ef60ed64c9a9b53e52325e02cea0162ee3d6c418bc1f1f6e46821fd",
+    "source_python_file_count": 18,
+    "completion_status": "Historical report and result files present; stopped stages are explicitly unrun",
+    "date_in_source": [
+      "2026-09-28"
+    ],
+    "publication_review_date": "2026-10-04",
+    "environment": "Python numerical simulation; exact package versions and hardware not independently verified in this release",
+    "sanitised": true,
+    "rerun_for_publication": false,
+    "scope": "Summary-only release; source/config files and raw results not included"
+  }
+]
